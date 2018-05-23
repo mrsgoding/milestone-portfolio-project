@@ -1,0 +1,44 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 800px;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+}
+
+header h2 {
+  width: 1100px;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  line-height: 90px;
+  color: #ffe6cc;
+  margin: 0;
+  padding-top: 200px;
+  letter-spacing: 10px;
+}
+
+header h2 span {
+  color: #262626;
+  font-weight: 400;
+  letter-spacing: 20px;
+}
