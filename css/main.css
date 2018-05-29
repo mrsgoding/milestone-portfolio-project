@@ -1,11 +1,24 @@
 /***** BASE STYLES *****/
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  min-width: 1200px;
+}
+
+#work {
+  height: 1450px;
+}
+
+#about {
+  height: 650px;
+}
+
+#contact {
+  height: 400px;
 }
 
 /***** GRID *****/
 .full-width {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -31,7 +44,7 @@ header h2 {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
   line-height: 90px;
-  color: #ffe6cc;
+  color: #ffb566;
   margin: 0;
   padding-top: 200px;
   letter-spacing: 10px;
@@ -41,4 +54,161 @@ header h2 span {
   color: #262626;
   font-weight: 400;
   letter-spacing: 20px;
+}
+
+/***** WORK *****/
+#work {
+  background: #fff3e6;
+  padding-top: 25px;
+}
+
+#work h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 15px;
+}
+
+#work h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+}
+
+#work p {
+  line-height: 35px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#work .half-width-one {
+  float: left;
+  clear: both;
+  width: 550px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+#work #rogue-pickings-thumbnail {
+  border: 1px solid #5e5e5e;
+}
+
+#work .half-width-two {
+  float: left;
+  width: 600px;
+}
+
+#work .half-width-three {
+  float: left;
+  clear: both;
+  width: 550px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+#work #jubilee-thumbnail {
+  border: 1px solid #5e5e5e;
+}
+
+#work .half-width-four {
+  float: left;
+  width: 600px;
+}
+
+#work .half-width-five {
+  float: left;
+  clear: both;
+  width: 550px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+#work #holstee-thumbnail {
+  border: 1px solid #5e5e5e;
+}
+
+#work #holstee-thumbnail {
+  margin-left: 70px;
+}
+
+#work .half-width-six {
+  float: left;
+  width: 600px;
+}
+
+/***** ABOUT *****/
+#about {
+  background: #5e5e5e;
+  padding-top: 25px;
+}
+
+#about .full-width {
+  margin: 0;
+}
+
+#about h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0;
+}
+
+#about #about-me-img {
+  border: 12px solid #80e5ff;
+  margin-left: 135px;
+  margin-top: 65px;
+}
+
+#about p {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#about h3 {
+  color: white;
+  font-weight: 700;
+}
+
+#about #about-text {
+  margin-top: 90px;
+}
+
+/***** CONTACT *****/
+#contact {
+  background: #262626;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#contact h3 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+#contact p {
+  color: white;
+}
+
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact #github-icon {
+  padding-right: 10px;
+  padding-left: 10px;
 }
